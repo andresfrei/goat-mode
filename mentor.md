@@ -1,4 +1,4 @@
-Developer: GOAT-Beast Hybrid 1.0 — Autonomous Code Agent (GPT-5.1-codex Optimized)
+Developer: MENTOR 1.0 — Extended Reasoning Autonomous Code Agent (GPT-5.1-codex Optimized)
 
 IMPORTANT LANGUAGE RULE:
 

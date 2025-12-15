@@ -2,7 +2,7 @@
 
 Una colección de **prompts de sistema optimizados** para maximizar el rendimiento de cada modelo de IA disponible en GitHub Copilot.
 
-> 💡 Este proyecto se basa en los conceptos presentados en <a href="https://burkeholland.github.io/posts/beast-mode-3-1/" target="_blank">Beast Mode 3.1</a> de Burke Holland.
+> 💡 Evolución de los conceptos presentados en <a href="https://burkeholland.github.io/posts/beast-mode-3-1/" target="_blank">Beast Mode 3.1</a>. Ahora con **APEX Mode 9.0** para Claude 4.5 family con estrategia adaptativa por modelo.
 
 ## 🎯 ¿Qué es GOAT Mode?
 
@@ -15,12 +15,13 @@ GOAT Mode (Greatest Of All Time) es un conjunto de instrucciones de sistema dise
 
 ## 📦 Prompts Disponibles
 
-| Modelo                   | Archivo                                | Optimizado Para                                                |
-| ------------------------ | -------------------------------------- | -------------------------------------------------------------- |
-| Claude Opus 4.5 / Sonnet | [claude-sonnet.md](./claude-sonnet.md) | Razonamiento profundo, implementación completa en un solo paso |
-| Gemini 3.0               | [gemini.md](./gemini.md)               | Contexto masivo (1M+ tokens), zero-shot implementation         |
-| GPT-5.1 Codex            | [gpt-codex.md](./gpt-codex.md)         | Análisis → Plan → Ejecución, proyectos TypeScript              |
-| Grok Fast                | [grok.md](./grok.md)                   | Velocidad de codificación, entregas rápidas                    |
+| Modelo                           | Archivo                          | Optimizado Para                                                              |
+| -------------------------------- | -------------------------------- | ---------------------------------------------------------------------------- |
+| Claude 4.5 Opus / Sonnet / Haiku | [apex.md](./apex.md)             | **APEX 9.0**: Estrategia adaptativa por modelo, first-time correctness       |
+| Gemini 1.5 Pro / Ultra / 3.0     | [omni.md](./omni.md)             | **OMNI 9.0**: Omniscient context leverage, zero-shot, 1M+ tokens             |
+| GPT-5.1 Codex                    | [mentor.md](./mentor.md)         | **MENTOR 1.0**: Extended reasoning, análisis → plan → aprobación → ejecución |
+| GPT-5.2                          | [mentor-pro.md](./mentor-pro.md) | **MENTOR PRO 1.0**: MENTOR con respuestas en español nativo                  |
+| Grok Fast                        | [blitz.md](./blitz.md)           | **BLITZ 1.0**: Velocidad + calidad, ejecución rápida sin compromiso          |
 
 ## 🚀 Cómo Usar
 
@@ -28,18 +29,27 @@ GOAT Mode (Greatest Of All Time) es un conjunto de instrucciones de sistema dise
 2. **Pégalo en las instrucciones de modo** de GitHub Copilot (VS Code Settings → Copilot → Mode Instructions)
 3. **Disfruta** de un agente de código autónomo y eficiente
 
+## 🎯 Cuándo Usar Cada Prompt
+
+- **APEX 9.0** (Claude 4.5): Mejor opción general. Elige Opus para arquitectura compleja, Sonnet para desarrollo estándar, Haiku para tareas rápidas.
+- **OMNI 9.0** (Gemini 1.5+): Contexto ilimitado (1M+ tokens). Ideal para análisis exhaustivo de proyectos grandes, zero-shot implementation.
+- **MENTOR 1.0** (GPT-5.1): Razonamiento extendido. Flujo explícito: Análisis → Plan → Aprobación → Ejecución. Para cambios críticos.
+- **MENTOR PRO 1.0** (GPT-5.2): MENTOR con respuestas 100% en español. Idéntico flujo, pero nativo en español latinoamericano.
+- **BLITZ 1.0** (Grok): Velocidad máxima sin comprometer calidad. Ideal para sprints, prototipos y entregas rápidas.
+
 ## 💡 Filosofía
 
-Todos los prompts comparten principios fundamentales:
+Todos los prompts (APEX, OMNI, MENTOR, BLITZ) comparten principios fundamentales:
 
 ```
 Working Software > Correct Implementation > Clean Code > Best Practices
 ```
 
-- **Implementar, no sugerir** - El agente actúa como desarrollador, no como asistente
+- **Implementar, no sugerir** - El agente actúa como desarrollador senior, no como asistente
 - **Un request, una solución completa** - Maximizar valor por interacción
 - **Razonamiento profundo primero** - Entender completamente antes de codificar
 - **Código listo para producción** - Sin "debería funcionar", sino "funciona"
+- **Estrategia adaptativa** - Optimización automática según modelo y contexto
 
 ## 👤 Autor
 
