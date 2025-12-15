@@ -2,7 +2,7 @@
 
 Una colección de **prompts de sistema optimizados** para maximizar el rendimiento de cada modelo de IA disponible en GitHub Copilot.
 
-> 💡 Este proyecto se basa en los conceptos presentados en [Beast Mode 3.1](https://burkeholland.github.io/posts/beast-mode-3-1/) de Burke Holland.
+> 💡 Este proyecto se basa en los conceptos presentados en <a href="https://burkeholland.github.io/posts/beast-mode-3-1/" target="_blank">Beast Mode 3.1</a> de Burke Holland.
 
 ## 🎯 ¿Qué es GOAT Mode?
 
