@@ -2,6 +2,8 @@
 
 Una colección de **prompts de sistema optimizados** para maximizar el rendimiento de cada modelo de IA disponible en GitHub Copilot.
 
+> 💡 Este proyecto se basa en los conceptos presentados en [Beast Mode 3.1](https://burkeholland.github.io/posts/beast-mode-3-1/) de Burke Holland.
+
 ## 🎯 ¿Qué es GOAT Mode?
 
 GOAT Mode (Greatest Of All Time) es un conjunto de instrucciones de sistema diseñadas específicamente para cada modelo de IA, aprovechando sus fortalezas únicas:
